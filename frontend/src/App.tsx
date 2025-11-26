@@ -4,9 +4,11 @@ import Routing from "./Components/NavBar/Routes/Routing";
 const App = () => {
   return (
     <>
-      <div className="w-full h-screen">
+      <div className="w-full min-h-screen">
         <NavBar />
-        <Routing />
+        <div className="pt-20">
+          <Routing />
+        </div>
       </div>
     </>
   );
